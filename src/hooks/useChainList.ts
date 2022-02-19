@@ -8,14 +8,14 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
 {
-      name: "Nova Network",
+      name: "Telos",
       network: "Mainnet",
-      rpc: ["https://rpc.novanetwork.io:9070/"],
+      rpc: ["https://mainnet.telos.net/evm"],
     },
     {
-          name: "Nebula Testnet",
+          name: "Telos Testnet",
           network: "Testnet",
-          rpc: ["https://testnet.rpc.novanetwork.io:9070/"],
+          rpc: ["https://testnet.telos.net/evm"],
         },
   ]);
 

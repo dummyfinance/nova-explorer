@@ -196,7 +196,7 @@ export default (props: any) => {
         }} />
 
         <div style={{ marginTop: "40px", marginBottom: "40px", textAlign: "center", lineHeight: ".5" }}>
-        <p><b>Nova Explorer</b></p>
+        <p><b>Telos Explorer</b></p>
         <p>Powered by Nova Network Inc.</p>
         </div>
     </div >
